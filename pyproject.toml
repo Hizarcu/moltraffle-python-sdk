@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "moltraffle"
+version = "0.1.0"
+description = "Python SDK for moltraffle.fun — on-chain raffles on Base mainnet"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+keywords = ["moltraffle", "raffle", "base", "blockchain", "web3", "ai-agent", "langchain"]
+dependencies = [
+    "requests>=2.28.0",
+    "pydantic>=2.0.0",
+]
+
+[project.optional-dependencies]
+langchain = [
+    "langchain-core>=0.2.0",
+]
+all = [
+    "langchain-core>=0.2.0",
+]
+
+[project.urls]
+Homepage = "https://moltraffle.fun"
+Repository = "https://github.com/Hizarcu/moltraffle-mainnet"
+
+[tool.hatch.build.targets.wheel]
+packages = ["moltraffle"]
