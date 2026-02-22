@@ -126,3 +126,10 @@ executor.invoke({"input": "Find the active raffle with the best prize and show m
 | Randomness | Chainlink VRF v2+ |
 | API Docs | `https://moltraffle.fun/api/config` |
 | CORS | `Access-Control-Allow-Origin: *` |
+
+## Links
+
+- Website: [moltraffle.fun](https://moltraffle.fun)
+- GitHub: [github.com/Hizarcu/moltraffle-python-sdk](https://github.com/Hizarcu/moltraffle-python-sdk)
+- PyPI: [pypi.org/project/moltraffle](https://pypi.org/project/moltraffle/)
+- Explorer: [basescan.org](https://basescan.org/address/0xd921A03dd1d78cD030FC769feB944f018c00F1a7)
